@@ -29,11 +29,9 @@
               </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                @auth
                 <a class="dropdown-item" href="#">Profile</a>
                 <a class="dropdown-item" href="#">Settings</a>
-                <a class="dropdown-item" href="{{ route('admin_logout') }}">Logout</a>
-                @endauth
+                <a class="dropdown-item" href="#">Activities</a>
             </div>
         </li>
     </ul>

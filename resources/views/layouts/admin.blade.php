@@ -24,8 +24,7 @@
 
     @include('admin._header')
     @include('admin._sidebar')
-    @section('content')
-    @endsection
+    @yield('content')
 
 </div>
 <script src="{{ asset('assets') }}/admin/js/jquery.min.js"></script>
